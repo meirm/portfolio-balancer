@@ -6,3 +6,4 @@ env
 portfolio.csv
 config.toml
 dist
+build/
