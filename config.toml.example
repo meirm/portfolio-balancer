@@ -1,0 +1,8 @@
+[binance]
+api_key = ""
+api_secret = ""
+balance_ratio = 0.5
+trigger_ratio = 0.015
+
+[portfolio]
+file = "portfolio.csv"
