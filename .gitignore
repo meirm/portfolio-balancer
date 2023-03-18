@@ -1,5 +1,8 @@
 env
+*.egg-info
+*.pdf
 *.pyc
 .*.swp
 portfolio.csv
 config.toml
+dist
