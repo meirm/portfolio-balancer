@@ -76,7 +76,7 @@ def balance_portfolio(binance, config, verbose, report_transaction):
             detail = f"Buy {eth_diff_print} ETH"
         else:
             order = binance.create_market_sell_order("ETH/USDT", -eth_diff)
-            detail = f"Sell {-eth_diff_print} ETH"
+            detail = f"Sell -{eth_diff_print} ETH"
                   
         if not verbose and report_transaction:
             report_status(eth_amount, usdt_amount, target_eth, target_usdt, eth_price, abs_diff_print)
