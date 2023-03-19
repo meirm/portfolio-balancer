@@ -2,3 +2,4 @@ poetry
 ccxt
 toml
 argparse
+rich

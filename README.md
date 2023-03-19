@@ -12,7 +12,11 @@ Crypto Portfolio Balancer is a Python script that helps you balance your cryptoc
 - Reports transaction details when executed
 
 ## Installation
+```bash
+pip install -U portfolio-balancer
+```
 
+### from source
 1. Clone this repository or download the source code.
 2. Install Python 3 if you haven't already.
 3. Install the required packages using the following command:
@@ -20,7 +24,7 @@ Crypto Portfolio Balancer is a Python script that helps you balance your cryptoc
 ```bash
 pip install -r requirements.txt
 poetry build
-pip install -U dist/portfolio_balancer-0.1.0-py3-none-any.whl
+poetry install
 ```
 
 ## License

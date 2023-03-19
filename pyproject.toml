@@ -5,7 +5,7 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.poetry]
 name = "portfolio_balancer"
-version = "0.1.0"
+version = "0.1.6"
 description = "A Python script to balance your cryptocurrency portfolio between two currencies using the Binance API."
 authors = ["Meir Michanie <meirm@riunx.com>"]
 license = "MIT"
@@ -15,13 +15,13 @@ license = "MIT"
 python = "^3.9"
 ccxt = "^1.61.72"
 toml = "^0.10.2"
+rich = "^13.3.2"
 
 [tool.poetry.dev-dependencies]
 pytest = "^6.2.5"
 
 [tool.poetry.scripts]
 portfolio_balancer = "portfolio_balancer.main:main"
-
 
 
 
